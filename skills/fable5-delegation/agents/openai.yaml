@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fable 5 Delegation"
+  short_description: "Prepare low-anchoring Fable 5 task handoffs"
+  default_prompt: "Use $fable5-delegation to decide whether this task merits Fable 5, curate the minimum sufficient context, and prepare a high-value handoff."

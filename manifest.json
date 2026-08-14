@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "name": "spacexun2-skills",
+  "visibility": "public",
+  "globalInstructions": "AGENTS.md",
+  "claudeGlobalInstructions": "CLAUDE.md",
+  "skills": [
+    "cc-cooperate",
+    "codex-grill-me",
+    "git-layered-cleanup",
+    "fable5-delegation",
+    "doc-source-of-truth-consolidation",
+    "codex-handoff-retro",
+    "neo4j-agent-memory",
+    "neo4j-memory-compaction",
+    "frontier-skill-creator",
+    "control-loop-harness",
+    "goal-prompt-builder",
+    "prototype-user-journey-audit"
+  ],
+  "claudeSkills": [
+    "codex-grill-me",
+    "git-layered-cleanup",
+    "fable5-delegation",
+    "doc-source-of-truth-consolidation",
+    "codex-handoff-retro",
+    "neo4j-agent-memory",
+    "neo4j-memory-compaction",
+    "frontier-skill-creator",
+    "control-loop-harness",
+    "prototype-user-journey-audit"
+  ],
+  "claudeExcludedSkills": {
+    "cc-cooperate": "Codex-side orchestration, handoff, and acceptance of Claude Code execution",
+    "goal-prompt-builder": "Codex Goal and /goal runtime semantics are not available in Claude Code"
+  },
+  "claudeRetiredSkills": {
+    "codex-grill": "Superseded by the explicit, evidence-calibrated codex-grill-me workflow",
+    "prototype-user-journey-audit-old": "Superseded by prototype-user-journey-audit",
+    "cybernetics-workflow": "Superseded by the explicit, proportional control-loop-harness workflow"
+  }
+}

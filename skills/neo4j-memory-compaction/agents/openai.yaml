@@ -1,0 +1,6 @@
+interface:
+  display_name: "Neo4j Memory Compaction"
+  short_description: "Audit and compact graph memory without losing current state."
+  default_prompt: "Use $neo4j-memory-compaction to audit or compact this Neo4j memory scope while preserving current state, provenance, and a proportional recovery path."
+policy:
+  allow_implicit_invocation: false

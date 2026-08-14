@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Grill Me"
+  short_description: "用适合人类决策的语言汇报目标、证据与判断，确认后再执行"
+  default_prompt: "Use $codex-grill-me to inspect current evidence and report the necessary context, your judgment, recommendation, and only the decisions I need to make in human-readable language before execution."
+
+policy:
+  allow_implicit_invocation: false

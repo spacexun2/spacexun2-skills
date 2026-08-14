@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Handoff Retro"
+  short_description: "Preserve executable project state and proven lessons."
+  default_prompt: "Use $codex-handoff-retro to create an evidence-backed handoff or retrospective without changing project implementation or governance assets."

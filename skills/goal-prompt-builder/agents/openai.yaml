@@ -1,0 +1,7 @@
+interface:
+  display_name: "Goal Prompt Builder"
+  short_description: "Draft compact, scope-stable Codex goals"
+  default_prompt: "Use $goal-prompt-builder to draft the smallest complete Goal, inheriting valid context and evidence without expanding scope."
+
+policy:
+  allow_implicit_invocation: true

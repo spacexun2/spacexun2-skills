@@ -1,0 +1,7 @@
+interface:
+  display_name: "Control Loop Harness"
+  short_description: "Run focused corrections or panoramic retrospectives"
+  default_prompt: "Use $control-loop-harness to review this correction question at the observation range I requested and recommend an evidence-backed next action."
+
+policy:
+  allow_implicit_invocation: false

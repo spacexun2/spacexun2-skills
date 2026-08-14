@@ -1,0 +1,6 @@
+interface:
+  display_name: "Frontier Skill Creator"
+  short_description: "Design intelligence-dense skills for frontier models."
+  default_prompt: "Use $frontier-skill-creator to create or refactor a Codex skill around durable intent, private intelligence, authority boundaries, and evidence."
+policy:
+  allow_implicit_invocation: false

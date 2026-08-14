@@ -1,0 +1,6 @@
+interface:
+  display_name: "Prototype User Journey Audit"
+  short_description: "从真实用户视角审查原型的因果闭环、证据可信度与实现权限边界"
+  default_prompt: "Use $prototype-user-journey-audit to audit this product path from a real user's perspective and report evidence-backed causal gaps without implementing changes."
+policy:
+  allow_implicit_invocation: false

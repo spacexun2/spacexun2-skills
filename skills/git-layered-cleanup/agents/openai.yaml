@@ -1,0 +1,4 @@
+interface:
+  display_name: "Git Layered Cleanup"
+  short_description: "Protect ownership and publication truth in mixed Git worktrees."
+  default_prompt: "Use $git-layered-cleanup to classify this noisy or mixed-boundary worktree by repository, ownership, publication intent, authority, and evidence; perform only authorized mutations and report local, committed, and published state separately."

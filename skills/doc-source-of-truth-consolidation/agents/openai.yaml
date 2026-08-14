@@ -1,0 +1,4 @@
+interface:
+  display_name: "Doc Source Of Truth Consolidation"
+  short_description: "Repair documentation authority and conflicting project truth."
+  default_prompt: "Use $doc-source-of-truth-consolidation to map competing documentation claims, separate normative decisions from descriptive evidence, and consolidate only within the authorized scope."
