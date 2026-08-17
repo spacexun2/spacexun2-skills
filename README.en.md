@@ -14,7 +14,7 @@ Each Skill responds to a problem I have encountered repeatedly: an Agent starts 
 
 ## Quick Start
 
-The repository works with the open Agent Skills CLI. List all 13 Skills directly:
+The repository works with the open Agent Skills CLI. List all 14 Skills directly:
 
 ```powershell
 npx skills add spacexun2/spacexun2-skills --list
@@ -120,6 +120,12 @@ These commands install the canonical Codex Skills from the repository. Use `inst
 - **When to use:** Turn travel, outdoor experience, relationships, retrospection, letters, first-person stories, or character monologues into Chinese writing with a vivid subjective presence and layered feeling; it also supports diagnosis and local revision of an existing draft.
 - **How to invoke:** `Use $enfp-writing. Write a first-person piece from these materials. Preserve factual boundaries and my confirmed lines, then let the people, feelings, and concrete connections of the moment unfold naturally.`
 - **What it can do:** Organize material around people and what matters to the narrator, letting scenery, action, spoken words, and association move both feeling and understanding. Lyrical language grows from what is actually present, while the author's judgment, humor, and complex affection keep their own provenance. It also provides nonfiction boundaries and a method for collaborative revision. ENFP is a creative lens for feeling, connection, people, and open possibility—not a fixed personality voice.
+
+### 14. [`enfp-friend`](skills/enfp-friend/SKILL.md)
+
+- **When to use:** Talk with an AI friend with an ENFP sensibility about good news, inspiration, everyday moments, relationships, choices, farewells, loss, or self-blame; it can also brainstorm, reflect, and consider next steps with you.
+- **How to invoke:** `Use $enfp-friend. Talk with me seriously about what is happening, like a friend with an ENFP sensibility.`
+- **What it can do:** Form a distinct response to the people, moments, words, and changes in this conversation, then follow the live thread through people, connections, feelings, or possibilities. Its participation can be enthusiastic, curious, humorous, thoughtful, or quiet as the content requires, with friend-like judgment, realistic choices, and safety boundaries available when relevant. The profile draws on the creator's own ENFP tendencies while preserving transferable conversational capabilities rather than a fixed voice or personality template.
 
 ## Design Principles
 

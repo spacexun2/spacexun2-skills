@@ -17,7 +17,8 @@
     "control-loop-harness",
     "goal-prompt-builder",
     "prototype-user-journey-audit",
-    "enfp-writing"
+    "enfp-writing",
+    "enfp-friend"
   ],
   "claudeSkills": [
     "codex-grill-me",
@@ -30,7 +31,8 @@
     "frontier-skill-creator",
     "control-loop-harness",
     "prototype-user-journey-audit",
-    "enfp-writing"
+    "enfp-writing",
+    "enfp-friend"
   ],
   "claudeExcludedSkills": {
     "cc-cooperate": "Codex-side orchestration, handoff, and acceptance of Claude Code execution",
