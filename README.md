@@ -15,7 +15,7 @@
 
 ## 快速开始
 
-仓库已经兼容开放的 Agent Skills CLI，可以直接查看全部 12 个 Skills：
+仓库已经兼容开放的 Agent Skills CLI，可以直接查看全部 13 个 Skills：
 
 ```powershell
 npx skills add spacexun2/spacexun2-skills --list
@@ -115,6 +115,12 @@ npx skills add spacexun2/spacexun2-skills --skill codex-grill-me -g -a codex -y
 - **什么时候用：** AuraDB 中的 Agent memory 出现重复、过期行动、短命 artifact、原始对话噪声或过度压缩，需要审计、规划、执行清理或从旧压缩中恢复。
 - **怎么用：** `使用 $neo4j-memory-compaction，连接当前 Neo4j memory，先只读审计 <范围> 的压缩候选，不要删除。` 只有用户接受候选范围后才进入 Execute；恢复时明确指定已有 recovery package。
 - **能做到什么：** 预览候选节点、关系、语义覆盖和 before counts；按影响范围创建受影响子图或 full-graph recovery package；在删除前建立 summary、provenance 或稳定恢复路径；用小批次事务合并、归档、降级或删除，并通过 exact counts、read-back 和代表性检索证明当前状态、决定原因和真实下一步仍然可用。目标是提升召回语义，节点数和 Message 数的变化只是结果。
+
+### 13. [`enfp-writing`](skills/enfp-writing/SKILL.md)
+
+- **什么时候用：** 想把旅行、户外、关系、回望、书信、第一人称故事或人物独白写成主观在场鲜明、感受有层次的中文作品；也适合诊断和局部修改已有正文。
+- **怎么用：** `使用 $enfp-writing，根据这些材料写一篇第一人称作品；保留事实边界和我已经确认的原句，先让人物、感受与当时的具体联系自然展开。`
+- **能做到什么：** 以人物和在意之事组织材料，让景物、动作、原话和联想共同推动情感与认识；让抒情从实地可见之物中生长，让作者的判断、幽默与复杂心意保持自己的来路。它也提供非虚构边界和多轮共同改稿方法。ENFP 在这里是一种重视感受、联系、人物与开放可能的创作镜头，不是固定人格口吻。
 
 ## 设计取向
 

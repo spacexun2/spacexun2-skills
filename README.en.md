@@ -14,7 +14,7 @@ Each Skill responds to a problem I have encountered repeatedly: an Agent starts 
 
 ## Quick Start
 
-The repository works with the open Agent Skills CLI. List all 12 Skills directly:
+The repository works with the open Agent Skills CLI. List all 13 Skills directly:
 
 ```powershell
 npx skills add spacexun2/spacexun2-skills --list
@@ -114,6 +114,12 @@ These commands install the canonical Codex Skills from the repository. Use `inst
 - **When to use:** Agent memory in AuraDB contains duplicates, stale actions, short-lived artifacts, raw conversation noise, or harmful over-compression and needs auditing, planning, cleanup, or recovery.
 - **How to invoke:** `Use $neo4j-memory-compaction. Connect to the current Neo4j memory and perform a read-only audit of compaction candidates within <scope>. Do not delete anything.` Execute begins only after the candidate scope is accepted; recovery requires an identified recovery package.
 - **What it can do:** Preview candidate nodes, relationships, semantic coverage, and before counts; create an affected-subgraph or full-graph recovery package proportional to the impact; establish a summary, provenance, or stable recovery path before deletion; merge, archive, downgrade, or delete through small transactions; and prove through exact counts, read-back, and representative retrieval that the current state, decision rationale, and real next steps remain usable. The objective is better retrieval semantics, not zero nodes or zero Message records.
+
+### 13. [`enfp-writing`](skills/enfp-writing/SKILL.md)
+
+- **When to use:** Turn travel, outdoor experience, relationships, retrospection, letters, first-person stories, or character monologues into Chinese writing with a vivid subjective presence and layered feeling; it also supports diagnosis and local revision of an existing draft.
+- **How to invoke:** `Use $enfp-writing. Write a first-person piece from these materials. Preserve factual boundaries and my confirmed lines, then let the people, feelings, and concrete connections of the moment unfold naturally.`
+- **What it can do:** Organize material around people and what matters to the narrator, letting scenery, action, spoken words, and association move both feeling and understanding. Lyrical language grows from what is actually present, while the author's judgment, humor, and complex affection keep their own provenance. It also provides nonfiction boundaries and a method for collaborative revision. ENFP is a creative lens for feeling, connection, people, and open possibility—not a fixed personality voice.
 
 ## Design Principles
 

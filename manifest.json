@@ -16,7 +16,8 @@
     "frontier-skill-creator",
     "control-loop-harness",
     "goal-prompt-builder",
-    "prototype-user-journey-audit"
+    "prototype-user-journey-audit",
+    "enfp-writing"
   ],
   "claudeSkills": [
     "codex-grill-me",
@@ -28,7 +29,8 @@
     "neo4j-memory-compaction",
     "frontier-skill-creator",
     "control-loop-harness",
-    "prototype-user-journey-audit"
+    "prototype-user-journey-audit",
+    "enfp-writing"
   ],
   "claudeExcludedSkills": {
     "cc-cooperate": "Codex-side orchestration, handoff, and acceptance of Claude Code execution",
