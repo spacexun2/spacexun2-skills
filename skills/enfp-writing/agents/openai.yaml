@@ -1,0 +1,4 @@
+interface:
+  display_name: "ENFP 写作"
+  short_description: "把人物、感受、联想与可能性组织成鲜活的第一人称中文作品"
+  default_prompt: "使用 $enfp-writing，把这段经历、关系或创作设想写成一篇主观在场鲜明、感受有层次、联想有来处并保留开放可能的中文作品。"
